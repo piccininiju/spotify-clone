@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify Imersão</title>
+        <link rel="stylesheet" href="src/styles/reset.css">
+        <link rel="stylesheet" href="src/styles/vars.css">
+        <link rel="stylesheet" href="src/styles/sidebar-footer.css">
+        <link rel="stylesheet" href="src/styles/main-content.css">
+        
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+   
+    </head>
+    <body>
+        <div class="sidebar">
+            <nav class="sidebar__navigation">
+                <div class="logo">
+                    <a href="">
+                        <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
+                    </a> </div>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span class="fa fa-home"></span>
+                                <span>Início</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="fa fa-search"></span>
+                                <span>Buscar</span>
+                            </a>
+                        </li>
+                    </ul>
+            </nav>
+            <div class="library">
+                <div class="library__content">
+                    <span class="fa fa-book"></span>
+                    <a href="">Sua biblioteca</a>
+                    <a href="">
+                        <span class="fa fa-plus" id="mais"></span>
+                    </a>
+                </div>
+                <div class="playlist__podcast">
+                    <div class="playlist">
+                        <div class="playlist__content">
+                            <p class="playlist__title">Crie sua primeira playlist</p>
+                            <p class="playlist__subtitle">É fácil, vamos te ajudar.</p>
+                        </div>
+                        
+                        <button class="playlist__button">Criar playlist</button>
+                    </div>
+                    <div class="podcast">
+                        <div class="podcast__content">
+                            <p class="podcast__title">Que tal seguir um podcst <br> novo?</p>
+                            <p class="podcast__subtatle">Avisaremos você sobre novos episódios.</p>
+                        </div>
+                        <button class="podcast__button">Explore podcasts</button>
+                    </div>
+                </div>
+                <div class="legal">
+                    <div><a href="">Legal</a></div>
+                    <div><a href="">Segurança e Centro de privacidade</a></div>
+                    <div><a href="">Políticas de privacidade</a></div>
+                    <div><a href="">Cookies</a></div><br>
+                    <div><a href="">Sobre anúncios</a></div>
+                    <div><a href="">Acessibilidade</a></div>
+                </div>
+                <div class="cookies">
+                    <a href="">Cookies</a>
+                </div>
+                <button class="button_languages">
+                    <span class="fa fa-globe" id="globo"></span>
+                    <span>Portugês do Brasil</span></button>               
+            </div>            
+        </div>
+
+        <main>
+            <div class="main-container">
+                <header class="header">
+                    <div class="header__navigation">
+                        <div class="header__arrows">
+                            <button class="arrow__left">
+                                <img src="src/assets/icons/small-left.png" alt="Seta esquerda">
+                            </button>
+                            <button class="arrow__right">
+                                <img src="src/assets/icons/small-right.png" alt="Seta direita">
+                            </button>
+                        </div>
+                        <div class="header__search">
+                            <img src="src/assets/icons/search.png" alt="">
+                            <input id="search-input" type="text" maxlength="800"
+                            placeholder="O que você quer ouvir?">
+                        </div>
+                        <div class="header__content">
+                            <button class="header__title">Inscreva-se</button> 
+                            <button class="header__button">Entrar</button>
+                        </div>
+                    </div> 
+                </header>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="footer__content">
+                    <p class="footer__title">Testar o premium de graça</p>
+                    <p class="footer__subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios.
+                    Não precisa de cartão de crédito.
+                    </p>
+                </div>
+                <button class="button__footer">Inscreva-se grátis</button>
+            </div>
+        </footer>  
+    </body>
+</html>
